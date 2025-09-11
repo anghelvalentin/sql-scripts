@@ -1,0 +1,1 @@
+SELECT a, b, COUNT(*) occurrences FROM t1 GROUP BY a, b HAVING COUNT(*) > 1;
